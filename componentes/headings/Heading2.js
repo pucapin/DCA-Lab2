@@ -1,4 +1,4 @@
-class Heading1 extends HTMLElement{
+class Heading2 extends HTMLElement{
     constructor(){
         super();
         this.attachShadow({mode: 'open'});
@@ -14,16 +14,16 @@ class Heading1 extends HTMLElement{
     render() {
         this.shadowRoot.innerHTML = `
         <style>
-        .heading1 {
-        font-size: 48px;
+        .heading2 {
+        font-size: 36px;
         font-weight: 600;
         margin-bottom: 10px;
         }
 
         </style>
-            <h1 class="heading1">${this.getAttribute('text')}</h1>
+            <h1 class="heading2">${this.getAttribute('text')}</h1>
         `
     }
 }
 
-export {Heading1};
+export {Heading2};

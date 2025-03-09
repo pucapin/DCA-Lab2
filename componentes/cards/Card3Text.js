@@ -5,7 +5,8 @@ class Card3Text extends HTMLElement{
         this.shadowRoot.innerHTML = `
             <style>
             .card-3 {
-                width: 50%;
+                min-width: 320px;
+                max-width: 520px;
             }
             .category-card {
                 font-size: 13px;

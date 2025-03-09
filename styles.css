@@ -5,3 +5,10 @@ body {
     margin-right: 8%;
 }
 
+.latest {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+}
