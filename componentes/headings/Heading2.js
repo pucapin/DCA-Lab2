@@ -17,7 +17,8 @@ class Heading2 extends HTMLElement{
         .heading2 {
         font-size: 36px;
         font-weight: 600;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        margin-top: 30px;
         }
 
         </style>

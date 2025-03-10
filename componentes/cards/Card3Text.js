@@ -7,6 +7,7 @@ class Card3Text extends HTMLElement{
             .card-3 {
                 min-width: 320px;
                 max-width: 520px;
+                
             }
             .category-card {
                 font-size: 13px;
