@@ -7,6 +7,8 @@ customElements.define('heading-2', Heading2);
 import { Header } from "./componentes/header/Header.js";
 customElements.define('blur-header', Header);
 
-import { Card3Text } from "./componentes/cards/Card3Text.js";
-customElements.define('card-3', Card3Text);
+import { NewsCard } from "./componentes/news/NewsCard.js";
+customElements.define('card-3', NewsCard);
 
+import { Dial } from "./componentes/dial/Dial.js";
+customElements.define('dial-numbers', Dial);

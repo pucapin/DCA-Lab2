@@ -1,4 +1,4 @@
-class Card3Text extends HTMLElement{
+class NewsCard extends HTMLElement{
     constructor() {
         super();
         this.attachShadow({mode: 'open'});
@@ -51,4 +51,4 @@ class Card3Text extends HTMLElement{
         `;
     }
 }
-export {Card3Text};
+export {NewsCard};
