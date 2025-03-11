@@ -24,7 +24,7 @@ class NewsCard extends HTMLElement{
 
         this.shadowRoot.innerHTML = `
 
-        <link rel="stylesheet" href="./componentes/news/news.css">
+        <link rel="stylesheet" href="./src/componentes/news/news.css">
         
             <link rel="stylesheet" href="styles.css">
             <div class="card-3">

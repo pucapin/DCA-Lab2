@@ -1,5 +1,4 @@
 import { createNews } from "../../data/newsData.js";
-
 class LatestSection extends HTMLElement{
 
     constructor() {

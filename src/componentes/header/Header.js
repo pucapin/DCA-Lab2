@@ -10,11 +10,11 @@ class Header extends HTMLElement{
 
     render() {
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./componentes/header/header.css">
+        <link rel="stylesheet" href="./src/componentes/header/header.css">
 
         <header class="header-blur">
         <div class="header-left">
-        <img src="./images/sitemark-logo.svg" alt="" id="logo">
+        <img src="./src/images/sitemark-logo.svg" alt="" id="logo">
         <p class="header-text">Features</p>
         <p class="header-text">Testimonials</p>
         <p class="header-text">Highlights</p>

@@ -11,7 +11,7 @@ class Dial extends HTMLElement{
     render() {
         this.shadowRoot.innerHTML = `
         
-        <link rel="stylesheet" href="./componentes/dial/dial.css">
+        <link rel="stylesheet" href="./src/componentes/dial/dial.css">
         
         <div class="dial">
         <p class="dial-number1">1</p>
