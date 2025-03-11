@@ -1,8 +1,4 @@
-import { Heading1 } from "./componentes/headings/Heading1.js";
-customElements.define('heading-1', Heading1);
 
-import { Heading2 } from "./componentes/headings/Heading2.js";
-customElements.define('heading-2', Heading2);
 
 import { Header } from "./componentes/header/Header.js";
 customElements.define('blur-header', Header);
