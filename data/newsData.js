@@ -10,8 +10,6 @@ export function createNews() {
             ],
             date: "July 14, 2021"
         },
-        {
 
-        }
     ];
 }

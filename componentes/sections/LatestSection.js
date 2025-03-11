@@ -18,7 +18,7 @@ class LatestSection extends HTMLElement{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 50px;
+        gap: 40px;
     
         }
         </style>
