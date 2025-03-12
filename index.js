@@ -12,3 +12,6 @@ customElements.define('dial-numbers', Dial);
 import { LatestSection } from "./src/componentes/sections/LatestSection.js";
 customElements.define('latest-section', LatestSection);
 
+import { Category } from "./src/componentes/category/category.js";
+customElements.define('category-nav', Category);
+
