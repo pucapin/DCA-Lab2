@@ -30,7 +30,7 @@ class LatestSection extends HTMLElement{
         const data = createNews();
 
         data.forEach(news => {
-            const newsCard = this.ownerDocument.createElement('news-card');
+            const newsCard = this.ownerDocument.createElement('news-card');0
             newsCard.setAttribute('category', news.category);
             newsCard.setAttribute('title', news.title);
             newsCard.setAttribute('description', news.description);
