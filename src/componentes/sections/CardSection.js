@@ -31,13 +31,14 @@ class Cardsection extends HTMLElement {
 
         const highlightCardSection = this.shadowRoot.querySelector('.highlight-card');
         const cards = createCards();
+        const bigCardData = cards.filter(news => news.type === 'big');
 
-        cards.forEach(card => {
+        bigCardData.forEach(card => {
             const cardElement = this.ownerDocument.createElement('card1-big');
             cardElement.setAttribute('category', card.category);
             cardElement.setAttribute('title', card.title);
             cardElement.setAttribute('description', card.description);
-            cardElement.setAttribute('img', 'https://fastly.picsum.photos/id/487/800/450.jpg?hmac=N9Ljze_4tFShaEEhHXGnJ9oDplCx-GYwdSQIrRQf-04'); 
+            cardElement.setAttribute('img', card.img); 
             cardElement.setAttribute('authors', JSON.stringify(card.authors));
             cardElement.setAttribute('date', card.date);
             highlightCardSection.appendChild(cardElement);
