@@ -39,7 +39,5 @@ class LatestSection extends HTMLElement{
             latest.appendChild(newsCard);
         });
     }
-
-
 }
 export {LatestSection};
