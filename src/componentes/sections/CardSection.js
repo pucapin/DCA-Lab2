@@ -18,7 +18,8 @@ class Cardsection extends HTMLElement {
                 width: 100%;
                 height: auto;
                 display: flex;
-                flex-direction: column;
+                flex-direction: row;
+                gap: 20px;
                 margin-block-start: 1em;
                 margin-block-end: 1em;
                
@@ -32,6 +33,7 @@ class Cardsection extends HTMLElement {
         const highlightCardSection = this.shadowRoot.querySelector('.highlight-card');
         const cards = createCards();
         const bigCardData = cards.filter(news => news.type === 'big');
+
 
         bigCardData.forEach(card => {
             const cardElement = this.ownerDocument.createElement('card1-big');
