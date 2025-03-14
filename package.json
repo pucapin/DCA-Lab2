@@ -1,6 +1,7 @@
 {
   "name": "dca-lab2",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "homepage": "https://github.com/pucapin/DCA-Lab2#readme",
   "bugs": {
@@ -12,7 +13,6 @@
   },
   "license": "ISC",
   "author": "isa&Eli",
-  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
