@@ -1,6 +1,6 @@
 class NewsCard extends HTMLElement{
     static get observedAttributes() {
-		return ['category', 'title', 'description', 'img', 'author', 'date'];
+		return ['category', 'title', 'description', 'authors', 'date'];
 	}
 
     constructor() {
