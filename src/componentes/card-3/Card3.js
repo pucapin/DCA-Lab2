@@ -23,29 +23,28 @@ class Card3 extends HTMLElement{
         const authorNames = authors.map(author => author.name).join(', ');
 
         this.shadowRoot.innerHTML = `
-        <link rel="stylesheet" href="./src/componentes/card-2/card2.css">
+        <link rel="stylesheet" href="./src/componentes/card-3/card3.css">
         
         <link rel="stylesheet" href="styles.css">
 
-        <div class="card-3">
-                <div class="text-container">
+                <div class="card-3">
+            <div class="text-container">
                 <p class="category-card">${this.getAttribute('category')}</p>
                 <h3 class="title-card">${this.getAttribute('title')}</h3>
                 <p class="text-card">${this.getAttribute('description')}</p>
-
             <div class="card-3-info">
-            <div class="author-images">
-            ${authorImages}
-            </div>
-            <div class="writer-card">
-            ${authorNames}
-            </div>
-            <p class="date-card">${this.getAttribute('date')}</p>
+                <div class="container-autorImg">
+                    <div class="author-images">
+                        ${authorImages}
+                    </div>
+                    <div class="writer-card">
+                        ${authorNames}
+                    </div>
+                </div>
+                <p class="date-card">${this.getAttribute('date')}</p>
             </div>
             </div>
         </div>
-            
-            
            `
     }
 }

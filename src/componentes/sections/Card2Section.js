@@ -30,10 +30,11 @@ class Cardsection2 extends HTMLElement {
             }
             .text-cards {
                 width: 38%;
-                height: auto;
+                height: 50%;
                 display: flex;
                 flex-direction: column;
                 gap: 5px;
+                
                
             }
             .img-card2 {
