@@ -26,7 +26,7 @@ export function createCards() {
         {  
             category: "Design",
             title: "Designing for the future: trends and insights",
-            description: "Stay ahead of the curve with the latest design trends and insights. Our design team shares their expertise on creating intuitive and visually stunning user experiences...",
+            description: "Stay ahead of the curve with the latest design trends and insights. Our design team shares their expertise...",
             img: "https://picsum.photos/800/450?random=${getPersistentRandom(3)}",
             authors: [
                 { name: "Kate Morrison", img: "https://mui.com/static/images/avatar/7.jpg" },
